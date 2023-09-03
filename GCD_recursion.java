@@ -1,4 +1,4 @@
-public class GCD{
+public class GCD_recursion{
 	public static int commonNumber(int num1 , int num2 , int i , int  common){
     	if( i > num1 || i > num2){
         	return common;
@@ -17,4 +17,3 @@ public class GCD{
    	 
 	}
 }
-

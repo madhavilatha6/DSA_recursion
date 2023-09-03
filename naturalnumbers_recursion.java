@@ -1,6 +1,5 @@
-   	 
-public class SumOfNaturalNumbers {
-	public static int sum(int n) {
+public class naturalnumbers_recursion {
+    public static int sum(int n) {
     	if (n <= 0) {
         	return 0;
     	} else {
@@ -14,6 +13,3 @@ public class SumOfNaturalNumbers {
     	System.out.println("Sum" + " is: " + result);
 	}
 }
-
-
-

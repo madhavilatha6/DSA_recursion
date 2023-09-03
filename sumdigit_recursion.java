@@ -1,6 +1,5 @@
-public class sum of digits
-{
-	public static int positiveint( int num , int i , int sum , int rem)
+public class sumdigit_recursion {
+    public static int positiveint( int num , int i , int sum , int rem)
 	{
     	if (i>num)
     	{
@@ -21,4 +20,3 @@ public class sum of digits
     	System.out.print(positiveint( num , i , sum , rem));
 	}
 }
-

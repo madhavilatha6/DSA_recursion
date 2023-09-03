@@ -1,4 +1,4 @@
-public  class asending{
+public  class assending_recursion{
     public static boolean accendingorder(int[] arr , int index )
     {
    	 if ( index >= arr.length-1 )
@@ -19,5 +19,3 @@ public  class asending{
    	 System.out.print(accendingorder(arr , 0));
     }
 }
-
-

@@ -1,5 +1,5 @@
- 	 public class factorial{
-	public static int factorial(int num,int fact, int i){
+public class factorialpositive_recursion {
+    public static int factorial(int num,int fact, int i){
     	if(i <= num){
         	fact*=i;
         	return factorial(num,fact,++i);
@@ -14,4 +14,3 @@
     	System.out.print(factorial(num,fact,i));
 	}
 }
-

@@ -1,5 +1,7 @@
-	 public class fibonacci{
-	public static int fibonacci(int n,int n1,int n2,int n3,int i){
+
+
+public class fibonacci_recursion {
+    public static int fibonacci(int n,int n1,int n2,int n3,int i){
     	if(i == n){
       	return n3;
     	}
@@ -18,4 +20,3 @@
  	System.out.print(fibonacci(n,n1,n2,n3,i));
 	}
 }
-

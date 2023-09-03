@@ -1,4 +1,4 @@
-public class ArmstrongNumberChecker {
+public class Armstrong{
     public static void main(String[] args) {
         int num = 153;
         String str = "" + num;
@@ -8,7 +8,7 @@ public class ArmstrongNumberChecker {
 
     public static void AmstrongNumber(int num, int len) {
         int sum = 0;
-        int originalNum = num;
+        int originalNum = num; // Store the original number before processing digits
 
         while (num > 0) {
             int rem = num % 10;
@@ -23,4 +23,3 @@ public class ArmstrongNumberChecker {
         }
     }
 }
-

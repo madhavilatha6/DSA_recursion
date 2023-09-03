@@ -1,5 +1,5 @@
-public class reverseString{
-	public static void Reverse(int start , int end , char[] string)
+public class reversestring_recursion {
+    public static void Reverse(int start , int end , char[] string)
 	{
     	if(start >= end){
         	return;
@@ -15,8 +15,4 @@ public class reverseString{
     	Reverse(0,string.length-1,string);
     	System.out.print(string);
 	}
-    
 }
-
-
-

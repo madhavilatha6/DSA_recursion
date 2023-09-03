@@ -1,6 +1,5 @@
-  
-public class maxvalue{
-	public static int max(int[] arr , int i,int max){
+public class maximumelement_recursion {
+    public static int max(int[] arr , int i,int max){
     	if(i == arr.length){
         	return max;
     	}
@@ -13,6 +12,5 @@ public class maxvalue{
     	int[] arr = {1,2,3,4,5};
     	System.out.print(max(arr,0,Integer.MAX_VALUE));
 	}
+
 }
-
-

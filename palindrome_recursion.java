@@ -1,5 +1,5 @@
-public class palindrome{
-    public static void Reverse Palindrome(int start , int end , char[] string)
+public class palindrome_recursion {
+    public static void ReversePalindrome(int start , int end , char[] string)
     {
    	 if(start >= end){
    		 return;
@@ -8,13 +8,13 @@ public class palindrome{
    		 string[start] = string[end];
    		 string[end] = temp;
     
-   		 Reverse Palindrome(start+1 , end-1 , string);
+   		 ReversePalindrome(start+1 , end-1 , string);
    	 
     }
     public static void main(String[] args){
    	 String str = "madhavi";
    	 char[] string = str.toCharArray();
-    	Reverse Palindrome(0,string.length-1,string);
+    	ReversePalindrome(0,string.length-1,string);
     	String rev = new String(string);
    		 if( str.equals(rev)){
    		 	System.out.println("palindrome");
@@ -26,4 +26,3 @@ public class palindrome{
     }
     
 }
-

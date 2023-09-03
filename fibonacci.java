@@ -1,4 +1,4 @@
-public class FibonacciSeries {
+public class fibonacci {
     public static void main(String[] args) {
         int numTerms = 10;
         int a = 0, b = 1;
@@ -10,4 +10,3 @@ public class FibonacciSeries {
         }
     }
 }
-

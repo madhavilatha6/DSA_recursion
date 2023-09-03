@@ -1,5 +1,5 @@
-public class Sumofnumber{
-	public static int number (int[] arr , int i ,int sum,int size){
+public class sumofeven_recursion {
+    public static int number (int[] arr , int i ,int sum,int size){
     	if(i == size ){
         	return  sum;
     	}
@@ -13,5 +13,3 @@ public class Sumofnumber{
     	System.out.print(number(arr,0,0,arr.length));
 	}
 }
- 
-
